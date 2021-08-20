@@ -1,0 +1,301 @@
+[
+	{
+		"name": "Aasimar",
+		"traits": [],
+		"languages": [],
+		"size": "medium",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Bugbear",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Dragonborn",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Dwarf",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Elf",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Firbolg",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Genasi",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Gnome",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Goblin",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Goliath",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Half-Elf",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Half-Orc",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Halfling",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Hobgoblin",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Human",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Kenku",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Kobold",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Lizardfolk",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Orc",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Tabaxi",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Tiefling",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Triton",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	},
+	{
+		"name": "Yuan-ti Pureblood",
+		"traits": [],
+		"languages": [],
+		"size": "",
+		"proficiencies": {
+			"armor": "",
+			"weapons": "",
+			"tool": "",
+			"skills": ""
+		},
+		"subraces": []
+	}
+]

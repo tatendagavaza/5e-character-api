@@ -1,0 +1,578 @@
+[
+	{
+		"name": "Artificer",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor", "medium armor", "shields"],
+			"weapons": ["simple weapons"],
+			"tools": ["thieves' tools", "tinker's tools", "artisan tool"],
+			"savingthrows": ["Constitution", "Intelligence"],
+			"skillnumber": 2,
+			"skills": [
+				"Arcana",
+				"History",
+				"Investigation",
+				"Medicine",
+				"Nature",
+				"Perception",
+				"Sleight of Hand"
+			]
+		},
+		"equipment": [
+			[["simple weapon", "simple weapon"]],
+			[["light crossbow", "20 crossbow bolts"]],
+			["studded leather armor", "scale mail"],
+			["thieves' tools"],
+			["dungeoneer's pack"]
+		],
+		"features": ["Magical Tinkering", "Spellcasting"],
+		"subclasses": ["Alchemist", "Armorer", "Artillerist", "Battle Smith"]
+	},
+	{
+		"name": "Barbarian",
+		"hitdice": "1d12",
+		"proficiencies": {
+			"armor": ["light armor", "medium armor"],
+			"weapons": ["simple weapons", "martial weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Constitution", "Strength"],
+			"skillnumber": 2,
+			"skills": [
+				"Animal Handling",
+				"Athletics",
+				"Intimidation",
+				"Nature",
+				"Perception",
+				"Survival"
+			]
+		},
+		"equipment": [
+			["greataxe", "martial weapon"],
+			[["handaxe", "handaxe"], "simple weapon"],
+			["explorer's pack"],
+			[["javelin", "javelin", "javelin", "javelin"]]
+		],
+		"features": ["Rage", "Unarmored Defense"],
+		"subclasses": [
+			"Path of Wild Magic",
+			"Path of the Ancestral Guardian",
+			"Path of the Battlerager",
+			"Path of the Beast",
+			"Path of the Beserker",
+			"Path of the Storm Herald",
+			"Path of the Totem Warrior",
+			"Path of the Zealot"
+		]
+	},
+	{
+		"name": "Bard",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor"],
+			"weapons": [
+				"simple weapons",
+				"hand crossbows",
+				"longswords",
+				"rapiers",
+				"shortswords"
+			],
+			"tools": [
+				[
+					"musical instrument",
+					"musical instrument",
+					"musical instrument"
+				]
+			],
+			"savingthrows": ["Charisma", "Dexterity"],
+			"skillnumber": 3,
+			"skills": [
+				"Acrobatics",
+				"Animal Handling",
+				"Arcana",
+				"Athletics",
+				"Deception",
+				"History",
+				"Insight",
+				"Intimidation",
+				"Investigation",
+				"Medicine",
+				"Nature",
+				"Perception",
+				"Performance",
+				"Persuasion",
+				"Religion",
+				"Sleight of Hand",
+				"Stealth",
+				"Survival"
+			]
+		},
+		"equipment": [
+			["rapier", "longsword", "simple weapon"],
+			["diplomat's pack", "entertainer's pack"],
+			["lute", "musical instrument"],
+			["leather armor"],
+			["dagger"]
+		],
+		"features": ["Bardic Inspiration", "Spellcasting"],
+		"subclasses": [
+			"College of Creation",
+			"College of Eloquence",
+			"College of Glamour",
+			"College of Lore",
+			"College of Spirits",
+			"College of Swords",
+			"College of Valor",
+			"College of Whispers"
+		]
+	},
+	{
+		"name": "Cleric",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor", "medium armor", "shields"],
+			"weapons": ["simple weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Charisma", "Wisdom"],
+			"skillnumber": 2,
+			"skills": [
+				"History",
+				"Insight",
+				"Medicine",
+				"Persuasion",
+				"Religion"
+			]
+		},
+		"equipment": [
+			["mace"],
+			["scale mail", "leather armor", "chain mail"],
+			[["light crossbow", "20 crossbow bolts"], "simple weapon"],
+			["priest's pack", "explorer's pack"],
+			["shield"],
+			["holy symbol"]
+		],
+		"features": ["Spellcasting", "Divine Domain"],
+		"subclasses": [
+			"Arcana Domain",
+			"Death Domain",
+			"Forge Domain",
+			"Grave Domain",
+			"Knowledge Domain",
+			"Life Domain",
+			"Light Domain",
+			"Nature Domain",
+			"Order Domain",
+			"Peace Domain",
+			"Tempest Domain",
+			"Trickery Domain",
+			"Twilight Domain",
+			"War Domain"
+		]
+	},
+	{
+		"name": "Druid",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor", "medium armor", "shields"],
+			"weapons": [
+				"clubs",
+				"daggers",
+				"darts",
+				"javelins",
+				"maces",
+				"quarterstaffs",
+				"scimitars",
+				"sickles",
+				"slings",
+				"spears"
+			],
+			"tools": ["herbalism kit"],
+			"savingthrows": ["Intelligence", "Wisdom"],
+			"skillnumber": 2,
+			"skills": [
+				"Arcana",
+				"Animal Handling",
+				"Insight",
+				"Medicine",
+				"Nature",
+				"Perception",
+				"Religion",
+				"Survival"
+			]
+		},
+		"equipment": [
+			["wooden shield", "simple weapon"],
+			["scimitar", "simple weapon"],
+			["leather armor"],
+			["explorer's pack"],
+			["druidic focus"]
+		],
+		"features": ["Druidic", "Spellcasting"],
+		"subclasses": [
+			"Circle of Dreams",
+			"Circle of Spores",
+			"Circle of Stars",
+			"Circle of Wildfire",
+			"Circle of the Land",
+			"Circle of the Moon",
+			"Circle of the Shepard"
+		]
+	},
+	{
+		"name": "Fighter",
+		"hitdice": "1d10",
+		"proficiencies": {
+			"armor": ["All armor", "shields"],
+			"weapons": ["simple weapons", "martial weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Strength", "Constitution"],
+			"skillnumber": 2,
+			"skills": [
+				"Acrobatics",
+				"Animal Handling",
+				"Athletics",
+				"History",
+				"Insight",
+				"Intimidation",
+				"Perception",
+				"Survival"
+			]
+		},
+		"equipment": [
+			["chain mail", ["leather armor", "longbow", "20 arrows"]],
+			[
+				["martial weapon", "shield"],
+				["martial weapon", "martial weapon"]
+			],
+			[
+				["light crossbow", "20 crossbow bolts"],
+				["handaxe", "handaxe"]
+			],
+			["dungeoneer's pack", "explorer's pack"]
+		],
+		"features": ["Fighting Style", "Second Wind"],
+		"subclasses": [
+			"Arcane Archer",
+			"Battle Master",
+			"Cavalier",
+			"Champion",
+			"Echo Knight",
+			"Eldritch Knight",
+			"Psi Warrior",
+			"Purple Dragon Knight",
+			"Rune Knight",
+			"Samurai"
+		]
+	},
+	{
+		"name": "Monk",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["None"],
+			"weapons": ["simple weapons", "shortswords"],
+			"tools": [["artisan tool", "musical instrument"]],
+			"savingthrows": ["Dexterity", "Strength"],
+			"skillnumber": 2,
+			"skills": [
+				"Acrobatics",
+				"Athletics",
+				"History",
+				"Insight",
+				"Religion",
+				"Stealth"
+			]
+		},
+		"equipment": [
+			["shortsword", "simple weapon"],
+			["dungeoneer's pack", "explorer's pack"],
+			[
+				[
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart",
+					"dart"
+				]
+			]
+		],
+		"features": ["Unarmored Defense", "Martial Arts"],
+		"subclasses": [
+			"Way of Mercy",
+			"Way of Shadow",
+			"Way of the Astral Self",
+			"Way of the Drunken Master",
+			"Way of the Four Elements",
+			"Way of the Kensei",
+			"Way of the Long Death",
+			"Way of the Open Hand",
+			"Way of the Sun Soul"
+		]
+	},
+	{
+		"name": "Paladin",
+		"hitdice": "1d10",
+		"proficiencies": {
+			"armor": ["All armor", "shields"],
+			"weapons": ["martial weapons", "simple weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Charisma", "Wisdom"],
+			"skillnumber": 2,
+			"skills": [
+				"Athletics",
+				"Insight",
+				"Intimidation",
+				"Medicine",
+				"Persuasion",
+				"Religion"
+			]
+		},
+		"equipment": [
+			[
+				["martial weapon", "shield"],
+				["martial weapon", "martial weapon"]
+			],
+			[
+				["javelin", "javelin", "javelin", "javelin", "javelin"],
+				"simple weapon"
+			],
+			["priest's pack", "explorer's pack"],
+			["chain mail"],
+			["holy symbol"]
+		],
+		"features": ["Divine Sense", "Lay on Hands"],
+		"subclasses": [
+			"Oath of Conquest",
+			"Oath of Devotion",
+			"Oath of Glory",
+			"Oath of Redemption",
+			"Oath of Vengeance",
+			"Oath of the Ancients",
+			"Oath of the Crown",
+			"Oath of the Watchers",
+			"Oathbreaker"
+		]
+	},
+	{
+		"name": "Ranger",
+		"hitdice": "1d10",
+		"proficiencies": {
+			"armor": ["light armor", "medium armor", "shields"],
+			"weapons": ["simple weapons", "martial weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Dexterity", "Strength"],
+			"skillnumber": 3,
+			"skills": [
+				"Animal Handling",
+				"Athletics",
+				"Insight",
+				"Investigation",
+				"Nature",
+				"Perception",
+				"Stealth",
+				"Survival"
+			]
+		},
+		"equipment": [
+			["scale mail", "leather armor"],
+			[
+				["shortsword", "shortsword"],
+				["simple weapon", "simple weapon"]
+			],
+			["dungeoneer's pack", "explorer's pack"],
+			["longbow"],
+			["quiver"],
+			["20 arrows"]
+		],
+		"features": ["Favored Enemy", "Natural Explorer"],
+		"subclasses": [
+			"Beast Master",
+			"Fey Wanderer",
+			"Gloom Stalker",
+			"Horizon Walker",
+			"Hunter",
+			"Monster Slayer",
+			"Swarmkeeper"
+		]
+	},
+	{
+		"name": "Rogue",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor"],
+			"weapons": [
+				"simple weapons",
+				"hand crossbows",
+				"longswords",
+				"rapiers",
+				"shortswords"
+			],
+			"tools": ["thieves' tools"],
+			"savingthrows": ["Dexterity", "Intelligence"],
+			"skillnumber": 4,
+			"skills": [
+				"Acrobatics",
+				"Athletics",
+				"Deception",
+				"Insight",
+				"Intimidation",
+				"Investigation",
+				"Perception",
+				"Performance",
+				"Persuasion",
+				"Sleight of Hand",
+				"Stealth"
+			]
+		},
+		"equipment": [
+			["rapier", "shortsword"],
+			[["shortbow", "quiver", "20 arrows"], "shortsword"],
+			["burglar's pack", "dungeoneer's pack", "explorer's pack"],
+			["leather armor"],
+			[["dagger", "dagger"]],
+			["thieves' tools"]
+		],
+		"features": ["Expersise", "Sneak Attack", "Thieves' Cant"],
+		"subclasses": [
+			"Assassin",
+			"Inquisitive",
+			"Mastermind",
+			"Phantom",
+			"Scout",
+			"Soulknife",
+			"Swashbuckler",
+			"Thief"
+		]
+	},
+	{
+		"name": "Sorcerer",
+		"hitdice": "1d6",
+		"proficiencies": {
+			"armor": ["None"],
+			"weapons": [
+				"daggers",
+				"darts",
+				"slings",
+				"quarterstaffs",
+				"light crossbowss"
+			],
+			"tools": ["None"],
+			"savingthrows": ["Charisma", "Constitution"],
+			"skillnumber": 2,
+			"skills": [
+				"Arcana",
+				"Deception",
+				"Insight",
+				"Intimidation",
+				"Persuasion",
+				"Religion"
+			]
+		},
+		"equipment": [
+			[["light crossbow", "20 crossbow bolts"], "simple weapon"],
+			["component pouch", "arcane focus"],
+			["dungeoneer's pack", "explorer's pack"],
+			[["dagger", "dagger"]]
+		],
+		"features": ["Sorcerous Origin", "Spellcasting"],
+		"subclasses": [
+			"Abberant Mind",
+			"Clockwork Soul",
+			"Divine Soul",
+			"Draconic Bloodline",
+			"Shadow Magic",
+			"Storm Sorcery",
+			"Wild Magic"
+		]
+	},
+	{
+		"name": "Warlock",
+		"hitdice": "1d8",
+		"proficiencies": {
+			"armor": ["light armor"],
+			"weapons": ["simple weapons"],
+			"tools": ["None"],
+			"savingthrows": ["Charisma", "Wisdom"],
+			"skillnumber": 2,
+			"skills": [
+				"Arcana",
+				"Deception",
+				"History",
+				"Intimidation",
+				"Investigation",
+				"Nature",
+				"Religion"
+			]
+		},
+		"equipment": [
+			[["light crossbow", "20 crossbow bolts"], "simple weapon"],
+			["component pouch", "arcane focus"],
+			["scholar's pack", "dungeoneer's pack"],
+			["leather armor"],
+			["simple weapon"],
+			[["dagger", "dagger"]]
+		],
+		"features": ["Otherworldly Patron", "Pact Magic"],
+		"subclasses": [
+			"The Archfey",
+			"The Celestial",
+			"The Fathomless",
+			"The Fiend",
+			"The Genie",
+			"The Great Old One",
+			"The Hexblade",
+			"The Undead",
+			"The Undying"
+		]
+	},
+	{
+		"name": "Wizard",
+		"hitdice": "1d6",
+		"proficiencies": {
+			"armor": ["None"],
+			"weapons": [
+				"daggers",
+				"darts",
+				"slings",
+				"quarterstaffs",
+				"light crossbowss"
+			],
+			"tools": ["None"],
+			"savingthrows": ["Intelligence", "Wisdom"],
+			"skillnumber": 2,
+			"skills": [
+				"Arcana",
+				"History",
+				"Insight",
+				"Investigation",
+				"Medicine",
+				"Religion"
+			]
+		},
+		"equipment": [
+			["quarterstaff", "dagger"],
+			["component pouch", "arcane focus"],
+			["scholar's pack", "explorer's pack"],
+			["spellbook"]
+		],
+		"features": ["Spellcasting", "Arcane Recovery"],
+		"subclasses": [
+			"Bladesinging",
+			"Chronurgy Magic",
+			"Graviturgy Magic",
+			"Order of Scribes",
+			"School of Abjuration",
+			"School of Conjuration",
+			"School of Divination",
+			"School of Enchantment",
+			"School of Evocation",
+			"School of Illusion",
+			"School of Necromancy",
+			"School of Transmutation",
+			"War Magic"
+		]
+	}
+]

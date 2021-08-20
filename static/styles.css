@@ -1,0 +1,39 @@
+body {
+	background: #393e46;
+	color: #eeeeee;
+	font-size: 110%;
+	line-height: 5vh;
+	text-align: center;
+	padding: 0% 10%;
+}
+.github,
+.github:visited {
+	color: #00adb5;
+	text-decoration: none;
+}
+.github:hover {
+	color: #aad8d3;
+}
+
+.info {
+	text-align: center;
+}
+
+.link {
+	background: #00adb5;
+	margin: auto 15%;
+	line-height: 15vh;
+}
+@media (max-width: 600px) {
+	body {
+		padding: 0%;
+	}
+	.link {
+		margin: auto;
+	}
+}
+
+.footer {
+	margin-top: 3.5rem;
+	font-size: 0.75rem;
+}
