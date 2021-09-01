@@ -4,14 +4,17 @@ from random import choice, randint
 martial_weapons = [
     "battleaxe", "flail", "glaive", "greataxe", "greatsword", "halberd", "lance", "longsword", "maul", "morningstar", "pike", "rapier",
     "scimitar", "shortsword", "trident", "war pick", "warhammer", "whip"
- ]
-simple_weapons = ["club", "dagger", "greatclub", "handaxe", "javelin", "light hammer", "mace", "quarterstaff", "sickle", "spear"]
-instruments = ["bagpipes", "drum", "dulcimer", "flute", "lute", "lyre", "horn", "pan flute", "shawn", "viol"]
+]
+simple_weapons = ["club", "dagger", "greatclub", "handaxe", "javelin",
+                  "light hammer", "mace", "quarterstaff", "sickle", "spear"]
+instruments = ["bagpipes", "drum", "dulcimer", "flute",
+               "lute", "lyre", "horn", "pan flute", "shawn", "viol"]
 tools = [
     "alchemist’s supplies", "brewer's supplies", "calligrapher's supplies", "carpenter's tools", "cartographer's tools",
     "cobbler's tools", "cook's utensils", "glassblower's tools", "jewler's tools", "leatherworker's tools", "mason's tools",
     "painter's cupplies", "potter's tools", "smith's tools", "tinker's tools", "weaver's tools", "woodcarver's tools"
- ]
+]
+
 
 def pick_race(data):
     race = choice(data)
@@ -40,10 +43,12 @@ def add_equipment_from_class(character_class):
         item = choice(i)  # Choose a random selection in equipment
         if type(item) is list:  # Check to see if selection is a list
             for itm in item:  # loop through selection
-                final = replace_item(itm)  # replace placeholder text, if any, with random item
+                # replace placeholder text, if any, with random item
+                final = replace_item(itm)
                 equipment.append(final)
         else:
-            final = replace_item(item) # replace placeholder text, if any, with random item
+            # replace placeholder text, if any, with random item
+            final = replace_item(item)
             equipment.append(final)
     return equipment
 

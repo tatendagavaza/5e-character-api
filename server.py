@@ -16,9 +16,11 @@ with open('./json/backgrounds.json') as bg_file:
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 
+
 @app.route('/')
 def home():
     return render_template('index.html')
+
 
 @app.route("/random-character", methods=["GET"])
 def get_random_character():
@@ -26,7 +28,8 @@ def get_random_character():
     cclass = pick_class(class_data)
     subclass = pick_subclass(cclass)
     background = pick_background(background_data)
-    equipment = add_equipment_from_class(cclass) + add_equipment_from_background(background)
+    equipment = add_equipment_from_class(
+        cclass) + add_equipment_from_background(background)
     stats_array = roll_for_stats()
 
     response = {
